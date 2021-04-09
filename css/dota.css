@@ -1,0 +1,205 @@
+/* CSS DOTA 2 */
+
+/* BUTTONS */
+.btn-info {
+	background-color: #6e93ac;
+	border-color: #6e93ac;
+}
+.btn-danger {
+	background-color: #dc431c;
+	border-color: #dc431c;
+}
+
+/* MENU TOPO */
+.menu-top .navbar-nav > li > a {
+	padding: 0 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #252525;
+}
+.bg-nav-dota .navbar-inverse .navbar-nav > .active > a, .bg-nav-dota .navbar-inverse .navbar-nav > .active > a:hover, .bg-nav-dota .navbar-inverse .navbar-nav > .active > a:focus {
+	background: none repeat scroll 0 0 #dc431c;
+}
+.bg-nav-dota .navbar-nav > .active a {
+	background: #dc431c;
+	color: #192431 !important;
+	padding: 29px 70px;
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+	-moz-box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+}
+.bg-nav-dota .nav > li > a:hover, .bg-nav-dota .nav > li > a:focus {
+	background: #dc431c;
+	color: #192431;
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+	-moz-box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+}
+.bg-nav-dota {
+	background: none repeat scroll 0 0 #192431;
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	height: 78px;
+	position: relative;
+	z-index: 20;
+}
+.bg-nav-dota .navbar {
+	border-radius: 0;
+	height: 78px;
+	margin-bottom: 0;
+	border: none;
+}
+.logo-dota {
+	background: url("../imgs/logo-dota.png") no-repeat scroll center center transparent;
+	font-size: 0;
+	height: 77px;
+	width: 190px;
+}
+.bg-nav-dota .navbar-nav li a {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Lato',sans-serif;
+}
+.bg-nav-dota .navbar-nav li {
+	border-right: 1px solid #47505a;
+}
+.bg-nav-dota .navbar-nav li:last-child {
+	border-right: none;
+}
+.bg-nav-dota .navbar-nav > li > a {
+	padding: 29px 70px;
+}
+/* CENTRO */
+.dota-center {
+	margin-top: 300px;
+}
+.center-home h1 {
+	color: #dc431c;
+	font-family: 'Lato',sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.center-home img{
+	width: 100%;
+	margin: 30px 0;
+	padding: 0 80px;
+}
+.center-col h3 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 25px;
+}
+.center-col span {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.center-home h4 {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+}
+.center-home h4:after {
+	content: "-";
+	font-size: 30px;
+	margin-left: 10px;
+}
+.center-home h4:before {
+	content: "-";
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+/* BOX WINER */
+.win-dota {
+	background: url("../imgs/bg-winner.jpg") no-repeat fixed center 0 / cover  #dc431c;
+	padding: 30px 0;
+}
+.win-dota .col-md-12{
+	text-align: center;
+}
+.win-dota span {
+	color: #fff;
+	float: left;
+	font-family: 'Droid Serif',serif;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+}
+.win-dota p{
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+.win-dota h5 {
+	text-align: center;
+	font-size: 44px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #192431;
+}
+
+/* MED FOOTER */
+.best-equips {
+	background: #1d2e41;
+	text-align: center;
+}
+.best-equips .equipes, .best-equips .classificacao {
+	margin: 40px 0;
+}
+.best-equips h5{
+	color: #d2341c;
+	font-size: 37px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.best-equips p {
+	color: #fff;
+	font-size: 17px;
+	font-family: 'Droid Serif',serif;
+	font-style: italic;
+}
+
+/* CAROUSEL */
+.bg-grey-dota {
+	background: #192431;
+	padding-bottom: 80px;
+}
+.carousel .item {
+	background: #192431;
+}
+.bg-dota {
+	background: url("../imgs/slide-2.jpg") no-repeat center top / cover  #192431;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1200px) {
+	.bg-nav-dota .navbar-nav > .active a {
+		padding: 29px 50px !important;
+	}
+  	.bg-nav-dota .navbar-nav > li > a {
+  		padding: 29px 50px !important;
+  	}
+}
+@media screen and (max-width: 1000px) {
+	.bg-nav-dota .navbar-nav > .active a {
+		padding: 29px 20px !important;
+	}
+  	.bg-nav-dota .navbar-nav > li > a {
+  		padding: 29px 20px !important;
+  	}
+}
+@media screen and (max-width: 600px) {
+	.center-home img {
+		padding: 0 10px;
+	}
+	.bg-dota {
+		background-size: 690px;
+	}
+}

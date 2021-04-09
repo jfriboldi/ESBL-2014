@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>jQuery Countdown</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="../scripts/jquery.plugin.js"></script>
+<script src="../scripts/jquery.countdown.js"></script>
+<script>
+$(function () {
+	
+	
+	$('#cd').countdown({until: $.countdown.UTCDate(-04, 2015, 1-1, 26, 11, 30, 0, 0), layout:'<span class="insc-date">{dnn}<br><small>dias</small> </span>' +
+							'<span class="insc-hr">{hnn}:<br><small>horas</small></span>' +
+							'<span class="insc-hr">{mnn}<br><small>minutos</small></span>' });
+	
+});
+</script>
+</head>
+<body>
+
+<div id="cd"></div>
+</body>
+</html>

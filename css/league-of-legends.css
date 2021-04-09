@@ -1,0 +1,207 @@
+/* CSS LEAGUE OF LEGENDS */
+
+/* BUTTONS */
+.btn-info {
+	background-color: #6e93ac;
+	border-color: #6e93ac;
+}
+
+/* MENU TOPO */
+.menu-top .navbar-nav > li > a {
+	padding: 0 5px;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #252525;
+}
+.bg-nav-lol .navbar-inverse .navbar-nav > .active > a, .bg-nav-lol .navbar-inverse .navbar-nav > .active > a:hover, .bg-nav-lol .navbar-inverse .navbar-nav > .active > a:focus {
+	background: none repeat scroll 0 0 #f1c510;
+}
+.bg-nav-lol .navbar-nav > .active a {
+	background: #f1c510;
+	color: #192431 !important;
+	padding: 29px 70px;
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+	-moz-box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+}
+.bg-nav-lol .nav > li > a:hover, .bg-nav-lol .nav > li > a:focus {
+	background: #f1c510;
+	color: #192431;
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+	-moz-box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+	box-shadow: 0 2px 1px rgba(0,0,0,0.3) inset;
+}
+.bg-nav-lol {
+	background: none repeat scroll 0 0 #192431;
+	-webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+	height: 78px;
+	position: relative;
+	z-index: 20;
+}
+.bg-nav-lol .navbar {
+	border-radius: 0;
+	height: 78px;
+	margin-bottom: 0;
+	border: none;
+}
+.logo-lol {
+	background: url("../imgs/logo-lol.png") no-repeat scroll center center transparent;
+	font-size: 0;
+	height: 77px;
+	width: 190px;
+}
+.bg-nav-lol .navbar-nav li a {
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Lato',sans-serif;
+}
+.bg-nav-lol .navbar-nav li {
+	border-right: 1px solid #47505a;
+}
+.bg-nav-lol .navbar-nav li:last-child {
+	border-right: none;
+}
+.bg-nav-lol .navbar-nav > li > a {
+	padding: 29px 70px;
+}
+
+/* CENTRO */
+.lol-center {
+	margin-top: 300px;
+}
+.center-home h1 {
+	color: #f1c510;
+	font-family: 'Lato',sans-serif;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.center-home img{
+	width: 100%;
+	margin: 30px 0;
+	padding: 0 80px;
+}
+.center-col h3 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 25px;
+}
+.center-col span {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+.center-home h4 {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+}
+.center-home h4:after {
+	content: "-";
+	font-size: 30px;
+	margin-left: 10px;
+}
+.center-home h4:before {
+	content: "-";
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+/* MED FOOTER */
+.best-equips {
+	background: #1d2e41;
+	text-align: center;
+}
+.best-equips .equipes, .best-equips .classificacao {
+	margin: 40px 0;
+}
+.best-equips h5{
+	color: #f1c510;
+	font-size: 37px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.best-equips p {
+	color: #fff;
+	font-size: 17px;
+	font-family: 'Droid Serif',serif;
+	font-style: italic;
+}
+
+/* BOX WINER */
+.win-lol {
+	background: url("../imgs/bg-winner-lol.jpg") no-repeat fixed center 0 / cover  #f1c510;
+	padding: 30px 0;
+}
+.win-lol .col-md-12{
+	text-align: center;
+}
+.win-lol span {
+	color: #fff;
+	float: left;
+	font-family: 'Droid Serif',serif;
+	font-size: 30px;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+}
+.win-lol p{
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+}
+.win-lol h5 {
+	text-align: center;
+	font-size: 44px;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #192431;
+}
+
+/* TOPO BG */
+.bg-top {
+	background: url(../imgs/bg-top-lol.png) no-repeat center top / cover;
+}
+
+/* CAROUSEL */
+.bg-grey-lol {
+	background: #192431;
+	padding-bottom: 80px;
+}
+.carousel .item {
+	background: #192431;
+}
+.bg-lol {
+	background: url("../imgs/slide-3.jpg") no-repeat center top / cover  #192431;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1200px) {
+	.bg-nav-lol .navbar-nav > .active a {
+		padding: 29px 50px !important;
+	}
+  	.bg-nav-lol .navbar-nav > li > a {
+  		padding: 29px 50px !important;
+  	}
+}
+@media screen and (max-width: 1000px) {
+	.bg-nav-lol .navbar-nav > .active a {
+		padding: 29px 20px !important;
+	}
+  	.bg-nav-lol .navbar-nav > li > a {
+  		padding: 29px 20px !important;
+  	}
+}
+@media screen and (max-width: 600px) {
+	.center-home img {
+		padding: 0 10px;
+	}
+	.bg-lol {
+		background-size: 690px;
+	}
+}
